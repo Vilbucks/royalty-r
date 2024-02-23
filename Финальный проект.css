@@ -1,0 +1,70 @@
+.bub{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    font-size: 30;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+li{
+    margin:10px 10px;
+}
+body{
+    background-image: url(https://cdn.discordapp.com/attachments/1203034629142085652/1209900445884088370/GTA5_Grand_Theft_Auto_Grand_Theft_Auto_V_Los_Santos_NaturalVision_Evolved_modding-1770073.png?ex=65e89a99&is=65d62599&hm=1c85977ab1c17246f05a6389c8c5cf23ea62bd68cdee6ee5811ce0e34e9fdb12&);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.servers{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.card{
+    display: flex;
+    align-items: center;
+    background-color: black;
+    transition: all 1s;
+    width: 500px;
+    height: 200px;
+}
+img{
+    width: 200px;
+    height: 200px;
+}
+p , h1{
+    color: white;
+}
+.card-info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+a:link {
+    color: black;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:visited {
+    color: black;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:hover {
+    color: white;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+a:active {
+    color: white;
+    background-color: transparent;
+    text-decoration: underline;
+}
+.cont{
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}

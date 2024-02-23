@@ -1,0 +1,86 @@
+body{
+    background-image: url(https://images3.alphacoders.com/589/589031.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.cont{
+    width: 100%;
+    display: flex;
+    justify-content: left;
+}
+p , h1{
+    color: white;
+}
+.card:hover{
+    background-color: orange;
+}
+.card{
+    display: flex;
+    align-items:start;
+    background-color: orange;
+}
+.bub{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    font-size: 30;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+li{
+    margin:10px 10px;
+}
+a:link {
+    color: green;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:visited {
+    color: black;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:hover {
+    color: white;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+a:active {
+    color: yellow;
+    background-color: transparent;
+    text-decoration: underline;
+}
+img{
+    width: 150px;
+    height: 200px;
+}
+.nan{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.new:hover{
+    background-color: lightseagreen;
+}
+.new{
+    display: flex;
+    align-items:start;
+    background-color: lightseagreen;
+}
+.chi{
+    width: 100%;
+    display: flex;
+    justify-content: right;
+}
+.cha:hover{
+    background-color: gray;
+}
+.cha{
+    display: flex;
+    align-items:start;
+    background-color: gray;
+}

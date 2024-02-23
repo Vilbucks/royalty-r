@@ -1,0 +1,53 @@
+.bub{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    font-size: 30;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+li{
+    margin:10px 10px;
+}
+a:link {
+    color: black;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:visited {
+    color: black;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:hover {
+    color: white;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+a:active {
+    color: white;
+    background-color: transparent;
+    text-decoration: underline;
+}
+body{
+    background-image: url(https://i.pinimg.com/originals/17/95/a8/1795a8ad3bef7f77eec1e50b89dcab74.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.cont{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.card:hover{
+    background-color: white;
+}
+.card{
+    display: flex;
+    align-items:start;
+    background-color: white;
+}
